@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# 
+# Start of session at: Sun Nov 12 15:42:05 2017
+# Process ID: 7324
+# Current directory: E:/Xilinx/XD58_Project/XD58/XD58_Artix_100T_project/Project.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: E:/Xilinx/XD58_Project/XD58/XD58_Artix_100T_project/Project.sdk/webtalk/webtalk.log
+# Journal file: E:/Xilinx/XD58_Project/XD58/XD58_Artix_100T_project/Project.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

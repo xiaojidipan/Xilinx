@@ -1,0 +1,13 @@
+vhdl xil_defaultlib "../../../bd/sub_BD/ip/sub_BD_microblaze_0_0/sim/sub_BD_microblaze_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/sub_BD/ip/sub_BD_microblaze_0_axi_intc_0/sim/sub_BD_microblaze_0_axi_intc_0.vhd" 
+vhdl xil_defaultlib "../../../bd/sub_BD/ip/sub_BD_mdm_1_0/sim/sub_BD_mdm_1_0.vhd" 
+vhdl xil_defaultlib "../../../bd/sub_BD/ip/sub_BD_rst_mig_7series_0_83M_0/sim/sub_BD_rst_mig_7series_0_83M_0.vhd" 
+vhdl xil_defaultlib "../../../bd/sub_BD/ip/sub_BD_axi_timer_0_0/sim/sub_BD_axi_timer_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/sub_BD/ip/sub_BD_axi_uartlite_0_0/sim/sub_BD_axi_uartlite_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/sub_BD/ip/sub_BD_axi_ethernetlite_0_0/sim/sub_BD_axi_ethernetlite_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/sub_BD/ip/sub_BD_axi_smc_0/bd_0/ip/ip_1/sim/bd_936a_psr_aclk_0.vhd" 
+vhdl xil_defaultlib "../../../bd/sub_BD/ip/sub_BD_dlmb_v10_0/sim/sub_BD_dlmb_v10_0.vhd" 
+vhdl xil_defaultlib "../../../bd/sub_BD/ip/sub_BD_ilmb_v10_0/sim/sub_BD_ilmb_v10_0.vhd" 
+vhdl xil_defaultlib "../../../bd/sub_BD/ip/sub_BD_dlmb_bram_if_cntlr_0/sim/sub_BD_dlmb_bram_if_cntlr_0.vhd" 
+vhdl xil_defaultlib "../../../bd/sub_BD/ip/sub_BD_ilmb_bram_if_cntlr_0/sim/sub_BD_ilmb_bram_if_cntlr_0.vhd" 
+nosort

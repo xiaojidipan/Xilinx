@@ -1,0 +1,103 @@
+$date
+        2017-Nov-17 15:28:11
+$end
+$version
+        Vivado v2017.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 32 " wr_ddr3_ctrl_inst/fifo_rd_data_A_w [31:0] $end
+$var reg 4 B wr_ddr3_ctrl_inst/wr_ch_sel_w [3:0] $end
+$var reg 9 F wr_ddr3_ctrl_inst/user_wr_len_w_1 [8:0] $end
+$var reg 2 O user_wr_len [10:9] $end
+$var reg 5 Q wr_ddr3_ctrl_inst/user_wr_len_w [15:11] $end
+$var reg 32 V wr_ddr3_ctrl_inst/fifo_time_code_A_w [31:0] $end
+$var reg 6 v wr_ddr3_ctrl_inst/state_a_w [5:0] $end
+$var reg 32 | din_w [31:0] $end
+$var reg 11 >" wr_ddr3_data_sel_inst/f_sgl_A_w [10:0] $end
+$var reg 9 I" rd_ddr3_ctrl_inst/user_rd_len_w_1 [8:0] $end
+$var reg 2 R" user_rd_len [10:9] $end
+$var reg 5 T" rd_ddr3_ctrl_inst/user_rd_len_w [15:11] $end
+$var reg 6 Y" rd_ddr3_ctrl_inst/state_a_w [5:0] $end
+$var reg 1 _" wr_ddr3_data_sel_inst/ch_A_ok_w $end
+$var reg 1 `" wr_ddr3_ctrl_inst/fifo_rd_time_code_en_w $end
+$var reg 1 a" wr_ddr3_ctrl_inst/rd_fifo_data_en_w $end
+$var reg 1 b" rd_ddr3_ctrl_inst/txd_done_w $end
+$var reg 1 c" wr_ddr3_ctrl_inst/txn_done_w $end
+$var reg 1 d" wr_ddr3_ctrl_inst/user_rd_data_en_w $end
+$var reg 1 e" rd_ddr3_ctrl_inst/user_rd_en_w $end
+$var reg 1 f" user_read_data_val $end
+$var reg 1 g" wr_ddr3_ctrl_inst/user_wr_en_w $end
+$var reg 1 h" wr_ddr3_ctrl_inst/user_wr_satisfy_w $end
+$var reg 1 i" wr_en_w $end
+$var reg 1 j" _TRIGGER $end
+$var reg 1 k" _WINDOW $end
+$var reg 1 l" _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111110000000001000000 "
+b0 B
+b10 F
+b0 O
+b0 Q
+b1011 V
+b1 v
+b0 |
+b0 >"
+b10 I"
+b0 R"
+b0 T"
+b1 Y"
+0_"
+0`"
+0a"
+0b"
+0c"
+0d"
+0e"
+0f"
+0g"
+1h"
+0i"
+0j"
+1k"
+0l"
+$end
+#100
+b1 I"
+b10 Y"
+1e"
+1j"
+#101
+0e"
+#144
+1f"
+#146
+1b"
+0f"
+#147
+b100 Y"
+#148
+b10 I"
+b1000 Y"
+0b"
+1e"
+#149
+0e"
+#193
+1f"
+#209
+0f"
+#253
+1f"
+#269
+1b"
+0f"
+#270
+b1 Y"
+#271
+0b"

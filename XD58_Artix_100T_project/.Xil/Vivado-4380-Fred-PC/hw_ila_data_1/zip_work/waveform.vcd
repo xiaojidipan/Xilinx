@@ -1,0 +1,196 @@
+$date
+        2017-Nov-18 14:43:59
+$end
+$version
+        Vivado v2017.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 11 " wr_ddr3_data_sel_inst/f_sgl_A_w [10:0] $end
+$var reg 32 - din_w [31:0] $end
+$var reg 16 M effective_value_inst/data_in_r_w [15:0] $end
+$var reg 32 ] effective_value_inst/square_data_w [31:0] $end
+$var reg 44 } effective_value_inst/sum_data_result_w [43:0] $end
+$var reg 6 K" effective_value_inst/state_a_w [5:0] $end
+$var reg 32 Q" effective_value_inst/sum_data_w [31:0] $end
+$var reg 12 q" u_ila_0_sum_data_w [43:32] $end
+$var reg 16 }" effective_value_inst/comp_point_cnt_w [15:0] $end
+$var reg 16 /# effective_value_inst/comp_ratio_cnt_w [15:0] $end
+$var reg 16 ?# effective_value_inst/data_in_w [15:0] $end
+$var reg 1 O# effective_value_inst/aclr_w $end
+$var reg 1 P# wr_ddr3_data_sel_inst/ch_A_ok_w $end
+$var reg 1 Q# effective_value_inst/data_in_val_r_w $end
+$var reg 1 R# effective_value_inst/data_in_val_w $end
+$var reg 1 S# effective_value_inst/square_val_w $end
+$var reg 1 T# effective_value_inst/sum_data_val_w $end
+$var reg 1 U# wr_en_w $end
+$var reg 1 V# _TRIGGER $end
+$var reg 1 W# _WINDOW $end
+$var reg 1 X# _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+b0 -
+b0 M
+b0 ]
+b0 }
+b1 K"
+b0 Q"
+b0 q"
+b0 }"
+b0 /#
+b0 ?#
+0O#
+0P#
+0Q#
+0R#
+0S#
+0T#
+0U#
+0V#
+1W#
+0X#
+$end
+#100
+b1 -
+b1 ?#
+1R#
+1U#
+1V#
+#101
+b10 -
+b1 M
+b10 K"
+b1 }"
+b1 /#
+b10 ?#
+1Q#
+#102
+b11 -
+b1 ]
+b10 /#
+b11 ?#
+0Q#
+1S#
+#103
+b100 -
+b1 }
+b11 /#
+b100 ?#
+0S#
+1T#
+#104
+b101 -
+b1 Q"
+b100 /#
+b101 ?#
+0T#
+#105
+b110 -
+b10 }
+b1 K"
+b0 /#
+b110 ?#
+#106
+b111 -
+b110 M
+b10 K"
+b10 }"
+b1 /#
+b111 ?#
+1Q#
+#107
+b1000 -
+b100100 ]
+b10 /#
+b1000 ?#
+0Q#
+1S#
+#108
+b1001 -
+b100101 }
+b11 /#
+b1001 ?#
+0S#
+1T#
+#109
+b1010 -
+b100101 Q"
+b100 /#
+b1010 ?#
+0T#
+#110
+b1 "
+b1011 -
+b1001001 }
+b1 K"
+b0 /#
+b1011 ?#
+#111
+b11 "
+b1100 -
+b1011 M
+b10 K"
+b11 }"
+b1 /#
+b1100 ?#
+1Q#
+#112
+b1101 -
+b1111001 ]
+b10 /#
+b1101 ?#
+0Q#
+1S#
+#113
+b100 "
+b1110 -
+b10011110 }
+b11 /#
+b1110 ?#
+0S#
+1T#
+#114
+b1111 -
+b10011110 Q"
+b100 /#
+b1111 ?#
+0T#
+#115
+b101 "
+b10000 -
+b100010111 }
+b1 K"
+b0 /#
+b10000 ?#
+#116
+b0 -
+b10000 M
+b10 K"
+b100 }"
+b1 /#
+b0 ?#
+1Q#
+0R#
+0U#
+#117
+b110 "
+b100000000 ]
+0Q#
+1S#
+#118
+b110011110 }
+0S#
+1T#
+#119
+b111 "
+b110011110 Q"
+0T#
+#120
+b1010011110 }
+#121
+b1000 "

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/XD58_test/XD58_Artix_100T_project/Project.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="8741fs"></ZoomEndTime>
+      <Cursor1Time time="100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="278"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="rd_ddr3_ctrl_inst/ram_wr_data_w" type="array">
+      <obj_property name="ElementShortName">rd_ddr3_ctrl_inst/ram_wr_data_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_wr_data_w[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rd_ddr3_ctrl_inst/ram_we_en_w" type="logic">
+      <obj_property name="ElementShortName">rd_ddr3_ctrl_inst/ram_we_en_w</obj_property>
+      <obj_property name="ObjectShortName">ram_we_en_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rd_ddr3_ctrl_inst/ram_wr_addr_w" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">rd_ddr3_ctrl_inst/ram_wr_addr_w[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_wr_addr_w[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rd_ddr3_ctrl_inst/state_a_w" type="array">
+      <obj_property name="ElementShortName">rd_ddr3_ctrl_inst/state_a_w[5:0]</obj_property>
+      <obj_property name="ObjectShortName">state_a_w[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rd_ddr3_ctrl_inst/txd_done_w" type="logic">
+      <obj_property name="ElementShortName">rd_ddr3_ctrl_inst/txd_done_w</obj_property>
+      <obj_property name="ObjectShortName">txd_done_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rd_ddr3_ctrl_inst/user_rd_en_w" type="logic">
+      <obj_property name="ElementShortName">rd_ddr3_ctrl_inst/user_rd_en_w</obj_property>
+      <obj_property name="ObjectShortName">user_rd_en_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rd_ddr3_ctrl_inst/user_rd_len_w" type="array">
+      <obj_property name="ElementShortName">rd_ddr3_ctrl_inst/user_rd_len_w[15:11]</obj_property>
+      <obj_property name="ObjectShortName">user_rd_len_w[15:11]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rd_ddr3_ctrl_inst/user_rd_len_w_1" type="array">
+      <obj_property name="ElementShortName">rd_ddr3_ctrl_inst/user_rd_len_w_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">user_rd_len_w_1[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rd_ddr3_ctrl_inst/user_read_data" type="array">
+      <obj_property name="ElementShortName">rd_ddr3_ctrl_inst/user_read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">user_read_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rd_ddr3_ctrl_inst/user_read_data_val" type="logic">
+      <obj_property name="ElementShortName">rd_ddr3_ctrl_inst/user_read_data_val</obj_property>
+      <obj_property name="ObjectShortName">user_read_data_val</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rd_ddr3_ctrl_inst/wr_ram_cnt_w" type="array">
+      <obj_property name="ElementShortName">rd_ddr3_ctrl_inst/wr_ram_cnt_w[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_ram_cnt_w[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="user_rd_len" type="array">
+      <obj_property name="ElementShortName">user_rd_len[10:9]</obj_property>
+      <obj_property name="ObjectShortName">user_rd_len[10:9]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

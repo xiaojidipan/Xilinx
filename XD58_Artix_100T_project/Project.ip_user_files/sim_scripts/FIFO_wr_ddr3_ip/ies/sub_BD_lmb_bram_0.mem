@@ -1,0 +1,16 @@
+// Mem file initialization records.
+//
+// SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+// Vivado v2017.2 (64-bit)
+// Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+// Created on Friday November 17, 2017 - 10:51:22 am, from:
+//
+//     Map file     - C:\XD58_test\XD58_Artix_100T_project\Project.srcs\sources_1\bd\sub_BD\sub_BD.bmm
+//     Data file(s) - c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_microblaze_0_0/data/mb_bootloop_le.elf
+//
+// Address space 'sub_BD_inst_sub_BD_i_microblaze_0.sub_BD_inst_sub_BD_i_microblaze_0_local_memory_lmb_bram_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@00000000
+    B8000000

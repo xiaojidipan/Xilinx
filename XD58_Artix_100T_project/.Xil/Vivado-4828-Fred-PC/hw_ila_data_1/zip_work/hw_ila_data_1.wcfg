@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/XD58_test/XD58_Artix_100T_project/Project.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="365400fs"></ZoomEndTime>
+      <Cursor1Time time="501000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="474"></NameColumnWidth>
+      <ValueColumnWidth column_width="62"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/ddr3_wr_done_w" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/ddr3_wr_done_w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr3_wr_done_w[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/fifo_rd_data_w" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/fifo_rd_data_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_data_w[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/fifo_rd_ddr3_data_en_w" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/fifo_rd_ddr3_data_en_w</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_ddr3_data_en_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/fifo_rd_time_code_en_w" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/fifo_rd_time_code_en_w</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_time_code_en_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/fifo_time_code_w" type="array">
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/fifo_time_code_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_time_code_w[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/state_a_w" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/state_a_w[5:0]</obj_property>
+      <obj_property name="ObjectShortName">state_a_w[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/txn_done_w" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/txn_done_w</obj_property>
+      <obj_property name="ObjectShortName">txn_done_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_rd_data_en_w" type="logic">
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_rd_data_en_w</obj_property>
+      <obj_property name="ObjectShortName">user_rd_data_en_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_wr_base_addr_w" type="array">
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_wr_base_addr_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">user_wr_base_addr_w[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_wr_burst_len_w" type="array">
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_wr_burst_len_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">user_wr_burst_len_w[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_wr_data_w" type="array">
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_wr_data_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">user_wr_data_w[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_wr_en_w" type="logic">
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_wr_en_w</obj_property>
+      <obj_property name="ObjectShortName">user_wr_en_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_wr_len_w" type="array">
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_wr_len_w[15:0]</obj_property>
+      <obj_property name="ObjectShortName">user_wr_len_w[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_wr_satisfy_w" type="logic">
+      <obj_property name="ElementShortName">ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/user_wr_satisfy_w</obj_property>
+      <obj_property name="ObjectShortName">user_wr_satisfy_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ila_0_wr_ddr3_ch_sel_w" type="logic">
+      <obj_property name="ElementShortName">u_ila_0_wr_ddr3_ch_sel_w</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_wr_ddr3_ch_sel_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

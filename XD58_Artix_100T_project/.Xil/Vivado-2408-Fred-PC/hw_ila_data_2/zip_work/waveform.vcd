@@ -1,0 +1,131 @@
+$date
+        2017-Nov-16 18:29:29
+$end
+$version
+        Vivado v2017.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 6 " rd_ddr3_ctrl_inst/state_a_w [5:0] $end
+$var reg 32 ( wr_ddr3_ctrl_inst/user_wr_base_addr_w [31:0] $end
+$var reg 6 H wr_ddr3_ctrl_inst/state_a_w [5:0] $end
+$var reg 32 N wr_ddr3_ctrl_inst/fifo_time_code_A_w [31:0] $end
+$var reg 32 n wr_ddr3_ctrl_inst/fifo_rd_data_A_w [31:0] $end
+$var reg 1 0" wr_ddr3_ctrl_inst/fifo_rd_time_code_en_w $end
+$var reg 1 1" wr_ddr3_ctrl_inst/rd_fifo_data_en_w $end
+$var reg 1 2" rd_ddr3_ctrl_inst/txd_done_w $end
+$var reg 1 3" wr_ddr3_ctrl_inst/txn_done_w $end
+$var reg 1 4" wr_ddr3_ctrl_inst/user_rd_data_en_w $end
+$var reg 1 5" rd_ddr3_ctrl_inst/user_rd_en_w $end
+$var reg 1 6" user_read_data_val $end
+$var reg 1 7" user_wr_en $end
+$var reg 1 8" wr_ddr3_ctrl_inst/user_wr_satisfy_w $end
+$var reg 1 9" _TRIGGER $end
+$var reg 1 :" _WINDOW $end
+$var reg 1 ;" _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 "
+b10000000010000000000000000001000 (
+b1 H
+b1001 N
+b10000000000000010 n
+00"
+01"
+02"
+03"
+04"
+05"
+06"
+07"
+18"
+09"
+1:"
+0;"
+$end
+#100
+b10 "
+15"
+19"
+#101
+05"
+#145
+16"
+#147
+06"
+#191
+16"
+#193
+06"
+#237
+16"
+#239
+06"
+#283
+16"
+#285
+06"
+#329
+16"
+#331
+06"
+#375
+16"
+#377
+06"
+#421
+16"
+#423
+06"
+#467
+16"
+#469
+06"
+#513
+16"
+#515
+06"
+#559
+16"
+#561
+06"
+#605
+16"
+#607
+06"
+#653
+16"
+#655
+06"
+#699
+16"
+#701
+06"
+#745
+16"
+#747
+06"
+#791
+16"
+#793
+06"
+#837
+16"
+#839
+06"
+#883
+16"
+#885
+06"
+#929
+16"
+#931
+06"
+#974
+16"
+#976
+06"

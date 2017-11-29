@@ -1,0 +1,417 @@
+
+*** Running vivado
+    with args -log sub_BD_mig_7series_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sub_BD_mig_7series_0_1.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source sub_BD_mig_7series_0_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 387.438 ; gain = 81.340
+INFO: [Synth 8-638] synthesizing module 'sub_BD_mig_7series_0_1' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/sub_BD_mig_7series_0_1.v:70]
+INFO: [Synth 8-638] synthesizing module 'sub_BD_mig_7series_0_1_mig' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/sub_BD_mig_7series_0_1_mig.v:75]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_tempmon' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_tempmon.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_tempmon' (1#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_tempmon.v:69]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_iodelay_ctrl' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_iodelay_ctrl.v:80]
+INFO: [Synth 8-638] synthesizing module 'IDELAYCTRL' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:16506]
+INFO: [Synth 8-256] done synthesizing module 'IDELAYCTRL' (2#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:16506]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_iodelay_ctrl' (3#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_iodelay_ctrl.v:80]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_clk_ibuf' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_clk_ibuf.v:68]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_clk_ibuf' (4#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_clk_ibuf.v:68]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_infrastructure' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_infrastructure.v:78]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20759]
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (5#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20759]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (6#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'PLLE2_ADV' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:33019]
+INFO: [Synth 8-256] done synthesizing module 'PLLE2_ADV' (7#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:33019]
+INFO: [Synth 8-638] synthesizing module 'BUFH' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'BUFH' (8#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:806]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_infrastructure' (9#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/clocking/mig_7series_v4_0_infrastructure.v:78]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_memc_ui_top_axi' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/ip_top/mig_7series_v4_0_memc_ui_top_axi.v:72]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_mem_intfc' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/ip_top/mig_7series_v4_0_mem_intfc.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_mc' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_mc.v:73]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_rank_mach' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_rank_mach.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_rank_cntrl' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_rank_cntrl.v:79]
+INFO: [Synth 8-638] synthesizing module 'SRLC32E' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43823]
+INFO: [Synth 8-256] done synthesizing module 'SRLC32E' (10#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43823]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_rank_cntrl' (11#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_rank_cntrl.v:79]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_rank_common' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_rank_common.v:72]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_round_robin_arb' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v:121]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_round_robin_arb' (12#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v:121]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_round_robin_arb__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v:121]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_round_robin_arb__parameterized0' (12#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v:121]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_rank_common' (13#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_rank_common.v:72]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_rank_mach' (14#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_rank_mach.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_mach' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_mach.v:72]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_cntrl' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_compare' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_compare.v:74]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_compare' (15#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_compare.v:74]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_state' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_state' (16#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_queue' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_queue' (17#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_cntrl' (18#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_cntrl__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_state__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_state__parameterized0' (18#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_queue__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_queue__parameterized0' (18#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_cntrl__parameterized0' (18#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_cntrl__parameterized1' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_state__parameterized1' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_state__parameterized1' (18#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_queue__parameterized1' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_queue__parameterized1' (18#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_cntrl__parameterized1' (18#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_cntrl__parameterized2' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_state__parameterized2' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_state__parameterized2' (18#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_state.v:141]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_queue__parameterized2' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_queue__parameterized2' (18#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_queue.v:174]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_cntrl__parameterized2' (18#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_cntrl.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_bank_common' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_common.v:73]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_common' (19#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_common.v:73]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_arb_mux' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_arb_mux.v:69]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_arb_row_col' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_arb_row_col.v:83]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_round_robin_arb__parameterized1' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v:121]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_round_robin_arb__parameterized1' (19#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_round_robin_arb.v:121]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_arb_row_col' (20#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_arb_row_col.v:83]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_arb_select' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_arb_select.v:75]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_arb_select' (21#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_arb_select.v:75]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_arb_mux' (22#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_arb_mux.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_bank_mach' (23#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_bank_mach.v:72]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_col_mach' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_col_mach.v:88]
+INFO: [Synth 8-638] synthesizing module 'RAM32M' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:37094]
+INFO: [Synth 8-256] done synthesizing module 'RAM32M' (24#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:37094]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_col_mach' (25#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_col_mach.v:88]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_mc' (26#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/controller/mig_7series_v4_0_mc.v:73]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_top' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_top.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_mc_phy_wrapper' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy_wrapper.v:71]
+INFO: [Synth 8-638] synthesizing module 'OBUF' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22272]
+INFO: [Synth 8-256] done synthesizing module 'OBUF' (27#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22272]
+INFO: [Synth 8-638] synthesizing module 'OBUFT' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22488]
+INFO: [Synth 8-256] done synthesizing module 'OBUFT' (28#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22488]
+INFO: [Synth 8-638] synthesizing module 'IOBUF_INTERMDISABLE' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:18271]
+INFO: [Synth 8-256] done synthesizing module 'IOBUF_INTERMDISABLE' (29#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:18271]
+INFO: [Synth 8-638] synthesizing module 'IOBUFDS_INTERMDISABLE' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17848]
+INFO: [Synth 8-256] done synthesizing module 'IOBUFDS_INTERMDISABLE' (30#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17848]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_of_pre_fifo' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_of_pre_fifo' (31#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_of_pre_fifo__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_of_pre_fifo__parameterized0' (31#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_mc_phy' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_4lanes' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_4lanes.v:72]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_lane' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_if_post_fifo' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_if_post_fifo.v:68]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_if_post_fifo' (32#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_if_post_fifo.v:68]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_of_pre_fifo__parameterized1' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_of_pre_fifo__parameterized1' (32#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_of_pre_fifo.v:76]
+INFO: [Synth 8-638] synthesizing module 'PHASER_IN_PHY' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:32705]
+INFO: [Synth 8-256] done synthesizing module 'PHASER_IN_PHY' (33#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:32705]
+INFO: [Synth 8-638] synthesizing module 'IN_FIFO' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17589]
+INFO: [Synth 8-256] done synthesizing module 'IN_FIFO' (34#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:17589]
+INFO: [Synth 8-638] synthesizing module 'PHASER_OUT_PHY' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:32842]
+INFO: [Synth 8-256] done synthesizing module 'PHASER_OUT_PHY' (35#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:32842]
+INFO: [Synth 8-638] synthesizing module 'OUT_FIFO' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:26338]
+INFO: [Synth 8-256] done synthesizing module 'OUT_FIFO' (36#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:26338]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_group_io' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-638] synthesizing module 'IDELAYE2' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:16519]
+INFO: [Synth 8-256] done synthesizing module 'IDELAYE2' (37#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:16519]
+INFO: [Synth 8-638] synthesizing module 'ISERDESE2' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20009]
+INFO: [Synth 8-256] done synthesizing module 'ISERDESE2' (38#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20009]
+INFO: [Synth 8-638] synthesizing module 'OSERDESE2' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:26223]
+INFO: [Synth 8-256] done synthesizing module 'OSERDESE2' (39#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:26223]
+INFO: [Synth 8-638] synthesizing module 'OSERDESE2__parameterized0' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:26223]
+INFO: [Synth 8-256] done synthesizing module 'OSERDESE2__parameterized0' (39#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:26223]
+INFO: [Synth 8-638] synthesizing module 'ODDR' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:25650]
+INFO: [Synth 8-256] done synthesizing module 'ODDR' (40#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:25650]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_group_io' (41#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_lane' (42#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'PHASER_OUT_PHY__parameterized0' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:32842]
+INFO: [Synth 8-256] done synthesizing module 'PHASER_OUT_PHY__parameterized0' (42#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:32842]
+INFO: [Synth 8-638] synthesizing module 'OUT_FIFO__parameterized0' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:26338]
+INFO: [Synth 8-256] done synthesizing module 'OUT_FIFO__parameterized0' (42#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:26338]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_group_io__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-638] synthesizing module 'OSERDESE2__parameterized1' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:26223]
+INFO: [Synth 8-256] done synthesizing module 'OSERDESE2__parameterized1' (42#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:26223]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_group_io__parameterized0' (42#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized0' (42#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized1' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_group_io__parameterized1' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_group_io__parameterized1' (42#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized1' (42#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized2' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'OBUFDS' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22286]
+INFO: [Synth 8-256] done synthesizing module 'OBUFDS' (43#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:22286]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_group_io__parameterized2' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_group_io__parameterized2' (43#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_group_io.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized2' (43#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'BUFIO' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:831]
+INFO: [Synth 8-256] done synthesizing module 'BUFIO' (44#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:831]
+INFO: [Synth 8-638] synthesizing module 'PHY_CONTROL' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:32933]
+INFO: [Synth 8-256] done synthesizing module 'PHY_CONTROL' (45#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:32933]
+INFO: [Synth 8-638] synthesizing module 'PHASER_REF' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:32917]
+INFO: [Synth 8-256] done synthesizing module 'PHASER_REF' (46#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:32917]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_4lanes' (47#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_4lanes.v:72]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_4lanes__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_4lanes.v:72]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized3' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_byte_lane__parameterized3' (47#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_byte_lane.v:70]
+INFO: [Synth 8-638] synthesizing module 'PHY_CONTROL__parameterized0' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:32933]
+INFO: [Synth 8-256] done synthesizing module 'PHY_CONTROL__parameterized0' (47#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:32933]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_4lanes__parameterized0' (47#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_4lanes.v:72]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_mc_phy' (48#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_mc_phy_wrapper' (49#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_mc_phy_wrapper.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_calib_top' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_calib_top.v:82]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_wrlvl' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrlvl.v:90]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_wrlvl' (50#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrlvl.v:90]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay.v:68]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay' (51#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay.v:68]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_dqs_found_cal_hr' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_dqs_found_cal_hr.v:79]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_dqs_found_cal_hr' (52#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_dqs_found_cal_hr.v:79]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_rdlvl' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_rdlvl.v:81]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_rdlvl' (53#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_rdlvl.v:81]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_prbs_gen' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_prbs_gen.v:92]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_prbs_gen' (54#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_prbs_gen.v:92]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_init' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_init.v:89]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_init' (55#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_init.v:89]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_wrcal' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrcal.v:77]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_wrcal' (56#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_wrcal.v:77]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_phy_tempmon' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_tempmon.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_tempmon' (57#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_tempmon.v:69]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_calib_top' (58#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_calib_top.v:82]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_phy_top' (59#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/phy/mig_7series_v4_0_ddr_phy_top.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_mem_intfc' (60#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/ip_top/mig_7series_v4_0_mem_intfc.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ui_top' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_top.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ui_cmd' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_cmd.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ui_cmd' (61#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_cmd.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ui_wr_data' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_wr_data.v:131]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ui_wr_data' (62#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_wr_data.v:131]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ui_rd_data' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_rd_data.v:140]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ui_rd_data' (63#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_rd_data.v:140]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ui_top' (64#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/ui/mig_7series_v4_0_ui_top.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc.v:90]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axi_upsizer' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_upsizer.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_a_upsizer' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_a_upsizer.v:62]
+INFO: [Synth 8-638] synthesizing module 'MUXCY' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:21613]
+INFO: [Synth 8-256] done synthesizing module 'MUXCY' (65#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:21613]
+INFO: [Synth 8-638] synthesizing module 'XORCY' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:45685]
+INFO: [Synth 8-256] done synthesizing module 'XORCY' (66#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:45685]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_carry_latch_and' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_carry_latch_and.v:61]
+INFO: [Synth 8-638] synthesizing module 'AND2B1L' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:36]
+INFO: [Synth 8-256] done synthesizing module 'AND2B1L' (67#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:36]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_carry_latch_and' (68#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_carry_latch_and.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_carry_and' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_carry_and.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_carry_and' (69#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_carry_and.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_command_fifo' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_command_fifo.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_carry_latch_or' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_carry_latch_or.v:61]
+INFO: [Synth 8-638] synthesizing module 'OR2L' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:25880]
+INFO: [Synth 8-256] done synthesizing module 'OR2L' (70#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:25880]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_carry_latch_or' (71#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_carry_latch_or.v:61]
+INFO: [Synth 8-638] synthesizing module 'FDRE' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'FDRE' (72#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_command_fifo' (73#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_command_fifo.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_a_upsizer' (74#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_a_upsizer.v:62]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_w_upsizer' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_w_upsizer.v:63]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_comparator_sel_static' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_comparator_sel_static.v:60]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_comparator_sel_static' (75#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_comparator_sel_static.v:60]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_carry_or' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_carry_or.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_carry_or' (76#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_carry_or.v:61]
+INFO: [Synth 8-638] synthesizing module 'LUT6_2' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20689]
+INFO: [Synth 8-256] done synthesizing module 'LUT6_2' (77#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20689]
+INFO: [Synth 8-638] synthesizing module 'LUT6_2__parameterized0' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20689]
+INFO: [Synth 8-256] done synthesizing module 'LUT6_2__parameterized0' (77#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20689]
+INFO: [Synth 8-638] synthesizing module 'LUT4' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20572]
+INFO: [Synth 8-256] done synthesizing module 'LUT4' (78#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20572]
+INFO: [Synth 8-638] synthesizing module 'LUT6' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20668]
+INFO: [Synth 8-256] done synthesizing module 'LUT6' (79#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20668]
+INFO: [Synth 8-638] synthesizing module 'FDSE' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:4100]
+INFO: [Synth 8-256] done synthesizing module 'FDSE' (80#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:4100]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_comparator_sel_static__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_comparator_sel_static.v:60]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_comparator_sel_static__parameterized0' (80#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_comparator_sel_static.v:60]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_comparator_sel' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_comparator_sel.v:60]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_comparator_sel' (81#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_comparator_sel.v:60]
+INFO: [Synth 8-638] synthesizing module 'LUT6__parameterized0' [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20668]
+INFO: [Synth 8-256] done synthesizing module 'LUT6__parameterized0' (81#1) [C:/Xilinx/vivado2017/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20668]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_w_upsizer' (82#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_w_upsizer.v:63]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_a_upsizer__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_a_upsizer.v:62]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_a_upsizer__parameterized0' (82#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_a_upsizer.v:62]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_r_upsizer' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_r_upsizer.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_r_upsizer' (83#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_r_upsizer.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axi_register_slice' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_register_slice.v:63]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice' (84#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized0' (84#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized1' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized1' (84#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized2' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized2' (84#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axi_register_slice' (85#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_register_slice.v:63]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axi_register_slice__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_register_slice.v:63]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized3' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized3' (85#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized4' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized4' (85#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized5' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized5' (85#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axi_register_slice__parameterized0' (85#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_register_slice.v:63]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axi_upsizer' (86#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_upsizer.v:71]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axi_register_slice__parameterized1' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_register_slice.v:63]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized6' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized6' (86#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized7' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized7' (86#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized8' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized8' (86#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized9' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized9' (86#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axi_register_slice__parameterized1' (86#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_register_slice.v:63]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axi_register_slice__parameterized2' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_register_slice.v:63]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized10' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized10' (86#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized11' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axic_register_slice__parameterized11' (86#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axic_register_slice.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_ddr_axi_register_slice__parameterized2' (86#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_ddr_axi_register_slice.v:63]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_aw_channel' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_aw_channel.v:57]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_cmd_translator' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_translator.v:62]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_incr_cmd' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_incr_cmd.v:64]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_incr_cmd' (87#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_incr_cmd.v:64]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_wrap_cmd' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wrap_cmd.v:97]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_wrap_cmd' (88#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wrap_cmd.v:97]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_cmd_translator' (89#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_translator.v:62]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_wr_cmd_fsm' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wr_cmd_fsm.v:76]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_wr_cmd_fsm' (90#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wr_cmd_fsm.v:76]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_aw_channel' (91#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_aw_channel.v:57]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_w_channel' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_w_channel.v:64]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_w_channel' (92#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_w_channel.v:64]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_b_channel' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_b_channel.v:83]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_fifo' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_fifo' (93#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_b_channel' (94#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_b_channel.v:83]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_ar_channel' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_ar_channel.v:57]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_cmd_translator__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_translator.v:62]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_incr_cmd__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_incr_cmd.v:64]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_incr_cmd__parameterized0' (94#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_incr_cmd.v:64]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_wrap_cmd__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wrap_cmd.v:97]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_wrap_cmd__parameterized0' (94#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_wrap_cmd.v:97]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_cmd_translator__parameterized0' (94#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_translator.v:62]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_cmd_fsm' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_fsm.v:72]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_cmd_fsm' (95#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_fsm.v:72]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_ar_channel' (96#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_ar_channel.v:57]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_r_channel' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_r_channel.v:67]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_fifo__parameterized0' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_fifo__parameterized0' (96#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v:70]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_fifo__parameterized1' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_fifo__parameterized1' (96#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_fifo.v:70]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_r_channel' (97#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_r_channel.v:67]
+INFO: [Synth 8-638] synthesizing module 'mig_7series_v4_0_axi_mc_cmd_arbiter' [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_arbiter.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc_cmd_arbiter' (98#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc_cmd_arbiter.v:61]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_axi_mc' (99#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/axi/mig_7series_v4_0_axi_mc.v:90]
+INFO: [Synth 8-256] done synthesizing module 'mig_7series_v4_0_memc_ui_top_axi' (100#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/ip_top/mig_7series_v4_0_memc_ui_top_axi.v:72]
+INFO: [Synth 8-256] done synthesizing module 'sub_BD_mig_7series_0_1_mig' (101#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/sub_BD_mig_7series_0_1_mig.v:75]
+INFO: [Synth 8-256] done synthesizing module 'sub_BD_mig_7series_0_1' (102#1) [d:/Xilinx_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/rtl/sub_BD_mig_7series_0_1.v:70]
+Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 588.453 ; gain = 282.355
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 588.453 ; gain = 282.355
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2L
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.233 . Memory (MB): peak = 895.949 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 895.949 ; gain = 589.852
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 895.949 ; gain = 589.852
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 895.949 ; gain = 589.852
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:09 ; elapsed = 00:01:12 . Memory (MB): peak = 895.949 ; gain = 589.852
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:06 ; elapsed = 00:03:12 . Memory (MB): peak = 1335.711 ; gain = 1029.613
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------------------+------------+---------------+----------------+
+|Module Name                   | RTL Object | Depth x Width | Implemented As | 
++------------------------------+------------+---------------+----------------+
+|mig_7series_v4_0_ddr_prbs_gen | mem_out    | 256x18        | LUT            | 
+|mig_7series_v4_0_ddr_prbs_gen | mem_out    | 256x18        | LUT            | 
++------------------------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------------+-------------------------------------------------------------------------------------------------------------------------+-----------+----------------------+---------------+
+|Module Name            | RTL Object                                                                                                              | Inference | Size (Depth x Width) | Primitives    | 
++-----------------------+-------------------------------------------------------------------------------------------------------------------------+-----------+----------------------+---------------+
+|sub_BD_mig_7series_0_1 | of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg                                                                               | Implied   | 16 x 80              | RAM32M x 14   | 
+|sub_BD_mig_7series_0_1 | ddr_byte_lane_A.ddr_byte_lane_A/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg                                   | Implied   | 4 x 80               | RAM32M x 14   | 
+|sub_BD_mig_7series_0_1 | ddr_byte_lane_A.ddr_byte_lane_A/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg                                               | Implied   | 16 x 80              | RAM32M x 14   | 
+|sub_BD_mig_7series_0_1 | ddr_byte_lane_B.ddr_byte_lane_B/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg                                               | Implied   | 16 x 80              | RAM32M x 14   | 
+|sub_BD_mig_7series_0_1 | ddr_byte_lane_C.ddr_byte_lane_C/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg                                               | Implied   | 16 x 80              | RAM32M x 14   | 
+|sub_BD_mig_7series_0_1 | ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/dq_gen_40.if_post_fifo_gen.u_ddr_if_post_fifo/mem_reg | Implied   | 4 x 80               | RAM32M x 14   | 
+|sub_BD_mig_7series_0_1 | ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_D.ddr_byte_lane_D/of_pre_fifo_gen.u_ddr_of_pre_fifo/mem_reg             | Implied   | 16 x 80              | RAM32M x 14   | 
++-----------------------+-------------------------------------------------------------------------------------------------------------------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:21 ; elapsed = 00:03:27 . Memory (MB): peak = 1408.664 ; gain = 1102.566
+Finished Timing Optimization : Time (s): cpu = 00:03:24 ; elapsed = 00:03:30 . Memory (MB): peak = 1417.680 ; gain = 1111.582
+Finished Technology Mapping : Time (s): cpu = 00:03:41 ; elapsed = 00:03:47 . Memory (MB): peak = 1417.680 ; gain = 1111.582
+Finished IO Insertion : Time (s): cpu = 00:03:44 ; elapsed = 00:03:50 . Memory (MB): peak = 1417.680 ; gain = 1111.582
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:44 ; elapsed = 00:03:50 . Memory (MB): peak = 1417.680 ; gain = 1111.582
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:47 ; elapsed = 00:03:53 . Memory (MB): peak = 1417.680 ; gain = 1111.582
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:47 ; elapsed = 00:03:53 . Memory (MB): peak = 1417.680 ; gain = 1111.582
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:48 ; elapsed = 00:03:54 . Memory (MB): peak = 1417.680 ; gain = 1111.582
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:48 ; elapsed = 00:03:54 . Memory (MB): peak = 1417.680 ; gain = 1111.582
+
+Report Cell Usage: 
++------+----------------------+------+
+|      |Cell                  |Count |
++------+----------------------+------+
+|1     |AND2B1L               |    10|
+|2     |BUFG                  |     3|
+|3     |BUFH                  |     1|
+|4     |BUFIO                 |     2|
+|5     |CARRY4                |   124|
+|6     |IDELAYCTRL            |     1|
+|7     |IDELAYE2              |    16|
+|8     |IN_FIFO               |     2|
+|9     |ISERDESE2             |    16|
+|10    |LUT1                  |   471|
+|11    |LUT2                  |   579|
+|12    |LUT3                  |  1033|
+|13    |LUT4                  |  1259|
+|14    |LUT5                  |  1467|
+|15    |LUT6                  |  1788|
+|16    |LUT6_2                |    24|
+|17    |MMCME2_ADV            |     1|
+|18    |MUXCY                 |   131|
+|19    |MUXF7                 |    75|
+|20    |ODDR                  |     5|
+|21    |OR2L                  |     2|
+|22    |OSERDESE2             |    23|
+|23    |OSERDESE2_1           |     2|
+|24    |OSERDESE2_2           |    18|
+|25    |OUT_FIFO              |     3|
+|26    |OUT_FIFO_1            |     2|
+|27    |PHASER_IN_PHY         |     2|
+|28    |PHASER_OUT_PHY        |     3|
+|29    |PHASER_OUT_PHY_1      |     2|
+|30    |PHASER_REF            |     2|
+|31    |PHY_CONTROL           |     2|
+|32    |PLLE2_ADV             |     1|
+|33    |RAM32M                |   132|
+|34    |SRL16E                |    22|
+|35    |SRLC32E               |   198|
+|36    |XORCY                 |    64|
+|37    |FDCE                  |     3|
+|38    |FDPE                  |    72|
+|39    |FDRE                  |  5080|
+|40    |FDSE                  |   123|
+|41    |IOBUFDS_INTERMDISABLE |     2|
+|42    |IOBUF_INTERMDISABLE   |    16|
+|43    |OBUF                  |    24|
+|44    |OBUFDS                |     1|
+|45    |OBUFT                 |     2|
++------+----------------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:48 ; elapsed = 00:03:54 . Memory (MB): peak = 1417.680 ; gain = 1111.582
+synth_design: Time (s): cpu = 00:03:56 ; elapsed = 00:04:02 . Memory (MB): peak = 1417.680 ; gain = 1111.582

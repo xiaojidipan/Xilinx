@@ -1,0 +1,89 @@
+
+*** Running vivado
+    with args -log sub_BD_axi_timer_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sub_BD_axi_timer_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source sub_BD_axi_timer_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 348.785 ; gain = 81.164
+INFO: [Synth 8-638] synthesizing module 'sub_BD_axi_timer_0_0' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_axi_timer_0_0/synth/sub_BD_axi_timer_0_0.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'axi_timer' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:2141]
+INFO: [Synth 8-638] synthesizing module 'tc_core' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:1698]
+INFO: [Synth 8-638] synthesizing module 'mux_onehot_f' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:365]
+INFO: [Synth 8-638] synthesizing module 'MUXCY' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:21613]
+INFO: [Synth 8-256] done synthesizing module 'MUXCY' (1#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:21613]
+INFO: [Synth 8-256] done synthesizing module 'mux_onehot_f' (2#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:365]
+INFO: [Synth 8-638] synthesizing module 'count_module' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:1434]
+INFO: [Synth 8-638] synthesizing module 'counter_f' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'counter_f' (3#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'count_module' (4#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:1434]
+INFO: [Synth 8-638] synthesizing module 'timer_control' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:835]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'timer_control' (6#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:835]
+INFO: [Synth 8-256] done synthesizing module 'tc_core' (7#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:1698]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (8#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (8#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (8#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (8#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized3' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized3' (8#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized4' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized4' (8#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized5' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized5' (8#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized6' [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized6' (8#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (9#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (10#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (11#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-256] done synthesizing module 'axi_timer' (12#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ipshared/a004/hdl/axi_timer_v2_0_vh_rfs.vhd:2141]
+INFO: [Synth 8-256] done synthesizing module 'sub_BD_axi_timer_0_0' (13#1) [e:/Xilinx/XD58_Project/XD58_Artix_100T_project_microblaze/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_axi_timer_0_0/synth/sub_BD_axi_timer_0_0.vhd:90]
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 391.871 ; gain = 124.250
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 391.871 ; gain = 124.250
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2L
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 703.168 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 703.168 ; gain = 435.547
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 703.168 ; gain = 435.547
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    16|
+|2     |LUT1   |     6|
+|3     |LUT2   |    82|
+|4     |LUT3   |    93|
+|5     |LUT4   |    82|
+|6     |LUT5   |    25|
+|7     |LUT6   |    62|
+|8     |MUXCY  |    64|
+|9     |MUXF7  |     2|
+|10    |FDR    |    12|
+|11    |FDRE   |   228|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 703.168 ; gain = 435.547
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 703.168 ; gain = 443.313

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/XD58_test/XD58_Artix_100T_project/Project.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="8701fs"></ZoomEndTime>
+      <Cursor1Time time="107000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="278"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="din_w" type="array">
+      <obj_property name="ElementShortName">din_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din_w[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="wr_en_w" type="logic">
+      <obj_property name="ElementShortName">wr_en_w</obj_property>
+      <obj_property name="ObjectShortName">wr_en_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/aclr_w" type="logic">
+      <obj_property name="ElementShortName">effective_value_inst/aclr_w</obj_property>
+      <obj_property name="ObjectShortName">aclr_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/data_in_w" type="array">
+      <obj_property name="ElementShortName">effective_value_inst/data_in_w[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_w[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/data_in_val_w" type="logic">
+      <obj_property name="ElementShortName">effective_value_inst/data_in_val_w</obj_property>
+      <obj_property name="ObjectShortName">data_in_val_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/state_a_w" type="array">
+      <obj_property name="ElementShortName">effective_value_inst/state_a_w[5:0]</obj_property>
+      <obj_property name="ObjectShortName">state_a_w[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/comp_point_cnt_w" type="array">
+      <obj_property name="ElementShortName">effective_value_inst/comp_point_cnt_w[15:0]</obj_property>
+      <obj_property name="ObjectShortName">comp_point_cnt_w[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/comp_ratio_cnt_w" type="array">
+      <obj_property name="ElementShortName">effective_value_inst/comp_ratio_cnt_w[15:0]</obj_property>
+      <obj_property name="ObjectShortName">comp_ratio_cnt_w[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/data_in_r_w" type="array">
+      <obj_property name="ElementShortName">effective_value_inst/data_in_r_w[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_r_w[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/data_in_val_r_w" type="logic">
+      <obj_property name="ElementShortName">effective_value_inst/data_in_val_r_w</obj_property>
+      <obj_property name="ObjectShortName">data_in_val_r_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/square_data_w" type="array">
+      <obj_property name="ElementShortName">effective_value_inst/square_data_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">square_data_w[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/square_val_w" type="logic">
+      <obj_property name="ElementShortName">effective_value_inst/square_val_w</obj_property>
+      <obj_property name="ObjectShortName">square_val_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/sum_data_result_w" type="array">
+      <obj_property name="ElementShortName">effective_value_inst/sum_data_result_w[43:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_data_result_w[43:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/sum_data_val_w" type="logic">
+      <obj_property name="ElementShortName">effective_value_inst/sum_data_val_w</obj_property>
+      <obj_property name="ObjectShortName">sum_data_val_w</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="effective_value_inst/sum_data_w" type="array">
+      <obj_property name="ElementShortName">effective_value_inst/sum_data_w[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_data_w[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u_ila_0_sum_data_w" type="array">
+      <obj_property name="ElementShortName">u_ila_0_sum_data_w[43:32]</obj_property>
+      <obj_property name="ObjectShortName">u_ila_0_sum_data_w[43:32]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

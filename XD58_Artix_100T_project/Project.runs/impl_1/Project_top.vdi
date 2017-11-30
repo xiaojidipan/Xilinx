@@ -2,8 +2,8 @@
 # Vivado v2017.2 (64-bit)
 # SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
 # IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Wed Nov 29 14:24:22 2017
-# Process ID: 7664
+# Start of session at: Wed Nov 29 15:44:53 2017
+# Process ID: 5856
 # Current directory: C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1
 # Command line: vivado.exe -log Project_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Project_top.tcl -notrace
 # Log file: C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/Project_top.vdi
@@ -26,7 +26,7 @@ WARNING: [IP_Flow 19-3664] IP 'sub_BD_dlmb_v10_0' generated file not found 'c:/X
 WARNING: [IP_Flow 19-3664] IP 'sub_BD_ilmb_v10_0' generated file not found 'c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_ilmb_v10_0/stats.txt'. Please regenerate to continue.
 WARNING: [IP_Flow 19-3664] IP 'sub_BD_dlmb_bram_if_cntlr_0' generated file not found 'c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_dlmb_bram_if_cntlr_0/stats.txt'. Please regenerate to continue.
 WARNING: [IP_Flow 19-3664] IP 'sub_BD_ilmb_bram_if_cntlr_0' generated file not found 'c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_ilmb_bram_if_cntlr_0/stats.txt'. Please regenerate to continue.
-add_files: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 396.094 ; gain = 144.496
+add_files: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 397.906 ; gain = 146.875
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
 INFO: [Project 1-454] Reading design checkpoint 'c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/ip/isa_handle_0/isa_handle_0.dcp' for cell 'handle_isa'
@@ -51,35 +51,35 @@ INFO: [Project 1-454] Reading design checkpoint 'c:/XD58_test/XD58_Artix_100T_pr
 INFO: [Project 1-454] Reading design checkpoint 'c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_ilmb_v10_0/sub_BD_ilmb_v10_0.dcp' for cell 'sub_BD_inst/sub_BD_i/microblaze_0_local_memory/ilmb_v10'
 INFO: [Project 1-454] Reading design checkpoint 'c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_lmb_bram_0/sub_BD_lmb_bram_0.dcp' for cell 'sub_BD_inst/sub_BD_i/microblaze_0_local_memory/lmb_bram'
 INFO: [Project 1-454] Reading design checkpoint 'c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/ip/vio_0/vio_0.dcp' for cell 'test_vio_inst/vio_test_inst'
-INFO: [Netlist 29-17] Analyzing 1611 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 1603 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2017.2
 INFO: [Device 21-403] Loading part xc7a100tfgg484-2L
 INFO: [Project 1-570] Preparing netlist for logic optimization
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[0]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222316]
-WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[0]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222317]
-WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[0]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222318]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[1]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222325]
-WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[1]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222326]
-WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[1]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222327]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[2]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222334]
-WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[2]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222335]
-WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[2]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222336]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[3]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222343]
-WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[3]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222344]
-WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[3]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222345]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[4]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222352]
-WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[4]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222353]
-WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[4]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222354]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[5]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222361]
-WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[5]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222362]
-WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[5]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222363]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[6]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222370]
-WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[6]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222371]
-WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[6]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222372]
-WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[7]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222379]
-WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[7]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222380]
-WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[7]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-7664-Fred-PC/dcp49/isa_handle_0.edf:222381]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[0]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222316]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[0]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222317]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[0]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222318]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[1]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222325]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[1]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222326]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[1]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222327]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[2]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222334]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[2]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222335]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[2]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222336]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[3]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222343]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[3]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222344]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[3]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222345]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[4]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222352]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[4]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222353]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[4]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222354]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[5]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222361]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[5]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222362]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[5]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222363]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[6]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222370]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[6]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222371]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[6]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222372]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'handle_isa/isa_getdata[7]' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222379]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'handle_isa/isa_getdata[7]' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222380]
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'handle_isa/isa_getdata[7]' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/.Xil/Vivado-5856-Fred-PC/dcp49/isa_handle_0.edf:222381]
 Parsing XDC File [c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/constraints/sub_BD_mig_7series_0_1.xdc] for cell 'sub_BD_inst/sub_BD_i/mig_7series_0'
 Finished Parsing XDC File [c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mig_7series_0_1/sub_BD_mig_7series_0_1/user_design/constraints/sub_BD_mig_7series_0_1.xdc] for cell 'sub_BD_inst/sub_BD_i/mig_7series_0'
 Parsing XDC File [c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_microblaze_0_0/sub_BD_microblaze_0_0.xdc] for cell 'sub_BD_inst/sub_BD_i/microblaze_0/U0'
@@ -88,7 +88,7 @@ Parsing XDC File [c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd
 Finished Parsing XDC File [c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_microblaze_0_axi_intc_0/sub_BD_microblaze_0_axi_intc_0.xdc] for cell 'sub_BD_inst/sub_BD_i/microblaze_0_axi_intc/U0'
 Parsing XDC File [c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mdm_1_0/sub_BD_mdm_1_0.xdc] for cell 'sub_BD_inst/sub_BD_i/mdm_1/U0'
 INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mdm_1_0/sub_BD_mdm_1_0.xdc:50]
-get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1458.324 ; gain = 540.793
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1457.934 ; gain = 540.168
 Finished Parsing XDC File [c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_mdm_1_0/sub_BD_mdm_1_0.xdc] for cell 'sub_BD_inst/sub_BD_i/mdm_1/U0'
 Parsing XDC File [c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_rst_mig_7series_0_83M_0/sub_BD_rst_mig_7series_0_83M_0_board.xdc] for cell 'sub_BD_inst/sub_BD_i/rst_mig_7series_0_83M/U0'
 Finished Parsing XDC File [c:/XD58_test/XD58_Artix_100T_project/Project.srcs/sources_1/bd/sub_BD/ip/sub_BD_rst_mig_7series_0_83M_0/sub_BD_rst_mig_7series_0_83M_0_board.xdc] for cell 'sub_BD_inst/sub_BD_i/rst_mig_7series_0_83M/U0'
@@ -224,7 +224,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 598 instances
   RAM32X1D => RAM32X1D (RAMD32, RAMD32): 40 instances
 
-link_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1481.934 ; gain = 1075.004
+link_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 1480.543 ; gain = 1072.801
 INFO: [Common 17-600] The following parameters have non-default value.
 tcl.collectionResultDisplayLimit
 Command: opt_design
@@ -239,7 +239,7 @@ report_drc (run_mandatory_drcs) completed successfully
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1481.934 ; gain = 0.000
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1480.543 ; gain = 0.000
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:69]
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:70]
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:71]
@@ -259,11 +259,11 @@ INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_C
 INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:xsdbm:3.0", from Vivado IP cache entry "27b709529c6ea5dd".
 INFO: [Chipscope 16-318] Generating core instance : u_ila_0
 INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_0_CV.
-INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.2", from Vivado IP cache entry "fcbecb9230447734".
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.628 . Memory (MB): peak = 1544.559 ; gain = 0.000
-Phase 1 Generate And Synthesize Debug Cores | Checksum: 9c85e3c9
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:6.2", from Vivado IP cache entry "0b300e33fa6b634f".
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.724 . Memory (MB): peak = 1584.520 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 75ff3c2d
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:01:25 . Memory (MB): peak = 1544.559 ; gain = 62.625
+Time (s): cpu = 00:00:36 ; elapsed = 00:01:33 . Memory (MB): peak = 1584.520 ; gain = 103.977
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:69]
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:70]
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:71]
@@ -276,44 +276,44 @@ INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clock
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 2 Retarget
-INFO: [Opt 31-138] Pushed 29 inverter(s) to 119 load pin(s).
+INFO: [Opt 31-138] Pushed 30 inverter(s) to 120 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 2 Retarget | Checksum: 1913d7bcd
+Phase 2 Retarget | Checksum: 1ca292e20
 
-Time (s): cpu = 00:00:39 ; elapsed = 00:01:32 . Memory (MB): peak = 1626.219 ; gain = 144.285
-INFO: [Opt 31-389] Phase Retarget created 8 cells and removed 874 cells
+Time (s): cpu = 00:00:46 ; elapsed = 00:01:40 . Memory (MB): peak = 1660.059 ; gain = 179.516
+INFO: [Opt 31-389] Phase Retarget created 9 cells and removed 804 cells
 
 Phase 3 Constant propagation
-INFO: [Opt 31-138] Pushed 7 inverter(s) to 7 load pin(s).
-Phase 3 Constant propagation | Checksum: 1658e8144
+INFO: [Opt 31-138] Pushed 8 inverter(s) to 8 load pin(s).
+Phase 3 Constant propagation | Checksum: 114752405
 
-Time (s): cpu = 00:00:44 ; elapsed = 00:01:38 . Memory (MB): peak = 1626.219 ; gain = 144.285
-INFO: [Opt 31-389] Phase Constant propagation created 1096 cells and removed 4519 cells
+Time (s): cpu = 00:00:51 ; elapsed = 00:01:46 . Memory (MB): peak = 1660.059 ; gain = 179.516
+INFO: [Opt 31-389] Phase Constant propagation created 1096 cells and removed 4520 cells
 
 Phase 4 Sweep
-Phase 4 Sweep | Checksum: 19abb14f6
+Phase 4 Sweep | Checksum: 1745a50c1
 
-Time (s): cpu = 00:00:55 ; elapsed = 00:01:48 . Memory (MB): peak = 1626.219 ; gain = 144.285
-INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 11834 cells
+Time (s): cpu = 00:01:03 ; elapsed = 00:01:58 . Memory (MB): peak = 1660.059 ; gain = 179.516
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 11794 cells
 
 Phase 5 BUFG optimization
-Phase 5 BUFG optimization | Checksum: 19abb14f6
+Phase 5 BUFG optimization | Checksum: 1745a50c1
 
-Time (s): cpu = 00:00:56 ; elapsed = 00:01:50 . Memory (MB): peak = 1626.219 ; gain = 144.285
+Time (s): cpu = 00:01:05 ; elapsed = 00:02:00 . Memory (MB): peak = 1660.059 ; gain = 179.516
 INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
 
 Phase 6 Shift Register Optimization
-Phase 6 Shift Register Optimization | Checksum: 19abb14f6
+Phase 6 Shift Register Optimization | Checksum: 1745a50c1
 
-Time (s): cpu = 00:00:56 ; elapsed = 00:01:50 . Memory (MB): peak = 1626.219 ; gain = 144.285
+Time (s): cpu = 00:01:05 ; elapsed = 00:02:00 . Memory (MB): peak = 1660.059 ; gain = 179.516
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 1626.219 ; gain = 0.000
-Ending Logic Optimization Task | Checksum: 19abb14f6
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.136 . Memory (MB): peak = 1660.059 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1745a50c1
 
-Time (s): cpu = 00:00:57 ; elapsed = 00:01:50 . Memory (MB): peak = 1626.219 ; gain = 144.285
+Time (s): cpu = 00:01:05 ; elapsed = 00:02:00 . Memory (MB): peak = 1660.059 ; gain = 179.516
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
@@ -337,29 +337,29 @@ WARNING: [Designutils 20-266] Invalid Voltage Source VCCINTIO for the family art
 
 
 Starting PowerOpt Patch Enables Task
-INFO: [Pwropt 34-162] WRITE_MODE attribute of 8 BRAM(s) out of a total of 23 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 12 BRAM(s) out of a total of 27 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
 INFO: [Pwropt 34-201] Structural ODC has moved 2 WE to EN ports
-Number of BRAM Ports augmented: 10 newly gated: 9 Total Ports: 46
+Number of BRAM Ports augmented: 17 newly gated: 9 Total Ports: 54
 Number of Flops added for Enable Generation: 2
 
-Ending PowerOpt Patch Enables Task | Checksum: 170d74122
+Ending PowerOpt Patch Enables Task | Checksum: 261b5b537
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.173 . Memory (MB): peak = 2182.480 ; gain = 0.000
-Ending Power Optimization Task | Checksum: 170d74122
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.187 . Memory (MB): peak = 2235.219 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 261b5b537
 
-Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 2182.480 ; gain = 556.262
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 2235.219 ; gain = 575.160
 124 Infos, 48 Warnings, 15 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:01:23 ; elapsed = 00:02:06 . Memory (MB): peak = 2182.480 ; gain = 700.547
+opt_design: Time (s): cpu = 00:01:34 ; elapsed = 00:02:17 . Memory (MB): peak = 2235.219 ; gain = 754.676
 INFO: [Common 17-600] The following parameters have non-default value.
 tcl.collectionResultDisplayLimit
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.090 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.056 . Memory (MB): peak = 2235.219 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/Project_top_opt.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 2182.480 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 2235.219 ; gain = 0.000
 Command: report_drc -file Project_top_drc_opted.rpt
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Coretcl 2-168] The results of DRC are in file C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/Project_top_drc_opted.rpt.
@@ -415,10 +415,10 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.187 . Memory (MB): peak = 2182.480 ; gain = 0.000
-Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 11a532ce5
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.210 . Memory (MB): peak = 2235.219 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1ac0112b8
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.205 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.229 . Memory (MB): peak = 2235.219 ; gain = 0.000
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:69]
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:70]
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:71]
@@ -430,7 +430,7 @@ INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clock
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:78]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.138 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.147 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:69]
@@ -453,82 +453,82 @@ WARNING: [Place 30-574] Poor placement for routing between an IO pin and BUFG. T
 	sub_BD_inst/sub_BD_i/axi_ethernetlite_0/U0/NO_LOOPBACK_GEN.INCLUDE_BUFG_GEN.TX_IBUF_INST (IBUF.O) is locked to IOB_X0Y35
 	sub_BD_inst/sub_BD_i/axi_ethernetlite_0/U0/NO_LOOPBACK_GEN.INCLUDE_BUFG_GEN.CLOCK_BUFG_TX (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y1
 Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
-Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 122591f0d
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 122d2e3e6
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 1.3 Build Placer Netlist Model
-Phase 1.3 Build Placer Netlist Model | Checksum: a5a30134
+Phase 1.3 Build Placer Netlist Model | Checksum: 731a1ef4
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:28 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 1.4 Constrain Clocks/Macros
-Phase 1.4 Constrain Clocks/Macros | Checksum: a5a30134
+Phase 1.4 Constrain Clocks/Macros | Checksum: 731a1ef4
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 2182.480 ; gain = 0.000
-Phase 1 Placer Initialization | Checksum: a5a30134
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:28 . Memory (MB): peak = 2235.219 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 731a1ef4
 
-Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:28 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 2 Global Placement
-Phase 2 Global Placement | Checksum: 17d16340b
+Phase 2 Global Placement | Checksum: 128024e5f
 
-Time (s): cpu = 00:01:29 ; elapsed = 00:00:57 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:35 ; elapsed = 00:01:01 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 17d16340b
+Phase 3.1 Commit Multi Column Macros | Checksum: 128024e5f
 
-Time (s): cpu = 00:01:30 ; elapsed = 00:00:57 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:36 ; elapsed = 00:01:01 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 7b924525
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1452335c7
 
-Time (s): cpu = 00:01:42 ; elapsed = 00:01:06 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:50 ; elapsed = 00:01:12 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: f5b1d2c8
+Phase 3.3 Area Swap Optimization | Checksum: 16aab644f
 
-Time (s): cpu = 00:01:42 ; elapsed = 00:01:06 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:13 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 133a768df
+Phase 3.4 Pipeline Register Optimization | Checksum: d573dcf6
 
-Time (s): cpu = 00:01:43 ; elapsed = 00:01:06 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:51 ; elapsed = 00:01:13 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 3.5 Timing Path Optimizer
-Phase 3.5 Timing Path Optimizer | Checksum: b53707ce
+Phase 3.5 Timing Path Optimizer | Checksum: 1b2de1996
 
-Time (s): cpu = 00:01:45 ; elapsed = 00:01:08 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:55 ; elapsed = 00:01:15 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 3.6 Fast Optimization
-Phase 3.6 Fast Optimization | Checksum: b53707ce
+Phase 3.6 Fast Optimization | Checksum: 1b2de1996
 
-Time (s): cpu = 00:01:46 ; elapsed = 00:01:08 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:55 ; elapsed = 00:01:15 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 3.7 Small Shape Detail Placement
-Phase 3.7 Small Shape Detail Placement | Checksum: 157545101
+Phase 3.7 Small Shape Detail Placement | Checksum: d0f71960
 
-Time (s): cpu = 00:01:58 ; elapsed = 00:01:20 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:02:09 ; elapsed = 00:01:28 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 3.8 Re-assign LUT pins
-Phase 3.8 Re-assign LUT pins | Checksum: d968d29d
+Phase 3.8 Re-assign LUT pins | Checksum: 13a0b4ec8
 
-Time (s): cpu = 00:02:00 ; elapsed = 00:01:22 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:02:10 ; elapsed = 00:01:30 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 3.9 Pipeline Register Optimization
-Phase 3.9 Pipeline Register Optimization | Checksum: 140c84cf1
+Phase 3.9 Pipeline Register Optimization | Checksum: 125bf75d7
 
-Time (s): cpu = 00:02:00 ; elapsed = 00:01:22 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:02:11 ; elapsed = 00:01:30 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 3.10 Fast Optimization
-Phase 3.10 Fast Optimization | Checksum: 140c84cf1
+Phase 3.10 Fast Optimization | Checksum: 125bf75d7
 
-Time (s): cpu = 00:02:06 ; elapsed = 00:01:25 . Memory (MB): peak = 2182.480 ; gain = 0.000
-Phase 3 Detail Placement | Checksum: 140c84cf1
+Time (s): cpu = 00:02:16 ; elapsed = 00:01:33 . Memory (MB): peak = 2235.219 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 125bf75d7
 
-Time (s): cpu = 00:02:06 ; elapsed = 00:01:25 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:02:17 ; elapsed = 00:01:34 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -545,55 +545,55 @@ INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clock
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 Post Placement Optimization
-Post Placement Optimization Initialization | Checksum: 184626b36
+Post Placement Optimization Initialization | Checksum: 496ea1c9
 
 Phase 4.1.1.1 BUFG Insertion
 INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
 INFO: [Place 46-41] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
-Phase 4.1.1.1 BUFG Insertion | Checksum: 184626b36
+Phase 4.1.1.1 BUFG Insertion | Checksum: 496ea1c9
 
-Time (s): cpu = 00:02:20 ; elapsed = 00:01:34 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:02:31 ; elapsed = 00:01:43 . Memory (MB): peak = 2235.219 ; gain = 0.000
 INFO: [Place 30-746] Post Placement Timing Summary WNS=1.253. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: 13264b034
+Phase 4.1.1 Post Placement Optimization | Checksum: d7783ac7
 
-Time (s): cpu = 00:02:20 ; elapsed = 00:01:35 . Memory (MB): peak = 2182.480 ; gain = 0.000
-Phase 4.1 Post Commit Optimization | Checksum: 13264b034
+Time (s): cpu = 00:02:32 ; elapsed = 00:01:44 . Memory (MB): peak = 2235.219 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: d7783ac7
 
-Time (s): cpu = 00:02:20 ; elapsed = 00:01:35 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:02:32 ; elapsed = 00:01:44 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 13264b034
+Phase 4.2 Post Placement Cleanup | Checksum: d7783ac7
 
-Time (s): cpu = 00:02:21 ; elapsed = 00:01:36 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:02:33 ; elapsed = 00:01:45 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: 13264b034
+Phase 4.3 Placer Reporting | Checksum: d7783ac7
 
-Time (s): cpu = 00:02:21 ; elapsed = 00:01:36 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:02:33 ; elapsed = 00:01:45 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 4.4 Final Placement Cleanup
-Phase 4.4 Final Placement Cleanup | Checksum: 13f350ada
+Phase 4.4 Final Placement Cleanup | Checksum: 1965b805a
 
-Time (s): cpu = 00:02:21 ; elapsed = 00:01:36 . Memory (MB): peak = 2182.480 ; gain = 0.000
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 13f350ada
+Time (s): cpu = 00:02:33 ; elapsed = 00:01:45 . Memory (MB): peak = 2235.219 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1965b805a
 
-Time (s): cpu = 00:02:22 ; elapsed = 00:01:36 . Memory (MB): peak = 2182.480 ; gain = 0.000
-Ending Placer Task | Checksum: 10df32a3a
+Time (s): cpu = 00:02:34 ; elapsed = 00:01:46 . Memory (MB): peak = 2235.219 ; gain = 0.000
+Ending Placer Task | Checksum: ed9771c6
 
-Time (s): cpu = 00:02:22 ; elapsed = 00:01:36 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:02:34 ; elapsed = 00:01:46 . Memory (MB): peak = 2235.219 ; gain = 0.000
 171 Infos, 79 Warnings, 15 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:02:28 ; elapsed = 00:01:41 . Memory (MB): peak = 2182.480 ; gain = 0.000
+place_design: Time (s): cpu = 00:02:40 ; elapsed = 00:01:50 . Memory (MB): peak = 2235.219 ; gain = 0.000
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:12 ; elapsed = 00:00:04 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:12 ; elapsed = 00:00:04 . Memory (MB): peak = 2235.219 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/Project_top_placed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:20 ; elapsed = 00:00:09 . Memory (MB): peak = 2182.480 ; gain = 0.000
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 2182.480 ; gain = 0.000
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.458 . Memory (MB): peak = 2182.480 ; gain = 0.000
-report_control_sets: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.196 . Memory (MB): peak = 2182.480 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:20 ; elapsed = 00:00:09 . Memory (MB): peak = 2235.219 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.083 . Memory (MB): peak = 2235.219 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.513 . Memory (MB): peak = 2235.219 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.212 . Memory (MB): peak = 2235.219 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t-fgg484'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t-fgg484'
@@ -619,119 +619,118 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
-Checksum: PlaceDB: 8b9d6a00 ConstDB: 0 ShapeSum: 8255c03a RouteDB: 0
+Checksum: PlaceDB: 15759ba5 ConstDB: 0 ShapeSum: d821d621 RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: 4eab4fea
+Phase 1 Build RT Design | Checksum: 40135023
 
-Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:21 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: 4eab4fea
+Phase 2.1 Create Timer | Checksum: 40135023
 
-Time (s): cpu = 00:00:30 ; elapsed = 00:00:22 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:23 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: 4eab4fea
+Phase 2.2 Fix Topology Constraints | Checksum: 40135023
 
-Time (s): cpu = 00:00:31 ; elapsed = 00:00:22 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:23 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: 4eab4fea
+Phase 2.3 Pre Route Cleanup | Checksum: 40135023
 
-Time (s): cpu = 00:00:31 ; elapsed = 00:00:22 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:23 . Memory (MB): peak = 2235.219 ; gain = 0.000
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 1ba9a7583
+Phase 2.4 Update Timing | Checksum: fe1331e9
 
-Time (s): cpu = 00:00:50 ; elapsed = 00:00:34 . Memory (MB): peak = 2182.480 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.251  | TNS=0.000  | WHS=-0.439 | THS=-2627.284|
+Time (s): cpu = 00:00:51 ; elapsed = 00:00:35 . Memory (MB): peak = 2235.219 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.251  | TNS=0.000  | WHS=-0.438 | THS=-2819.663|
 
 
 Phase 2.5 Update Timing for Bus Skew
 
 Phase 2.5.1 Update Timing
-Phase 2.5.1 Update Timing | Checksum: 1471ce2d4
+Phase 2.5.1 Update Timing | Checksum: fbfad41e
 
-Time (s): cpu = 00:01:01 ; elapsed = 00:00:41 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:43 . Memory (MB): peak = 2235.219 ; gain = 0.000
 INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.251  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 2.5 Update Timing for Bus Skew | Checksum: 1afce9fb1
+Phase 2.5 Update Timing for Bus Skew | Checksum: 1a72a9ce6
 
-Time (s): cpu = 00:01:02 ; elapsed = 00:00:41 . Memory (MB): peak = 2182.480 ; gain = 0.000
-Phase 2 Router Initialization | Checksum: 186d97160
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:43 . Memory (MB): peak = 2235.219 ; gain = 0.000
+Phase 2 Router Initialization | Checksum: 13675d468
 
-Time (s): cpu = 00:01:02 ; elapsed = 00:00:41 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:04 ; elapsed = 00:00:43 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 17adf372b
+Phase 3 Initial Routing | Checksum: 1ad888683
 
-Time (s): cpu = 00:01:10 ; elapsed = 00:00:46 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:48 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 3464
- Number of Nodes with overlaps = 201
- Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 3577
+ Number of Nodes with overlaps = 236
+ Number of Nodes with overlaps = 1
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.079  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.923  | TNS=0.000  | WHS=N/A    | THS=N/A    |
 
-Phase 4.1 Global Iteration 0 | Checksum: 15a060942
+Phase 4.1 Global Iteration 0 | Checksum: 270080094
 
-Time (s): cpu = 00:01:31 ; elapsed = 00:00:57 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:36 ; elapsed = 00:01:00 . Memory (MB): peak = 2235.219 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 270080094
 
-Phase 4.2 Global Iteration 1
- Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.079  | TNS=0.000  | WHS=N/A    | THS=N/A    |
-
-Phase 4.2 Global Iteration 1 | Checksum: 26bc330fe
-
-Time (s): cpu = 00:01:32 ; elapsed = 00:00:58 . Memory (MB): peak = 2182.480 ; gain = 0.000
-Phase 4 Rip-up And Reroute | Checksum: 26bc330fe
-
-Time (s): cpu = 00:01:32 ; elapsed = 00:00:58 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:36 ; elapsed = 00:01:00 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
-Phase 5.1 Delay CleanUp | Checksum: 26bc330fe
 
-Time (s): cpu = 00:01:32 ; elapsed = 00:00:58 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 21a9b148a
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:02 . Memory (MB): peak = 2235.219 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.923  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 20f4683ca
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:02 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 26bc330fe
+Phase 5.2 Clock Skew Optimization | Checksum: 20f4683ca
 
-Time (s): cpu = 00:01:32 ; elapsed = 00:00:58 . Memory (MB): peak = 2182.480 ; gain = 0.000
-Phase 5 Delay and Skew Optimization | Checksum: 26bc330fe
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:02 . Memory (MB): peak = 2235.219 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 20f4683ca
 
-Time (s): cpu = 00:01:32 ; elapsed = 00:00:58 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:39 ; elapsed = 00:01:02 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 22a2e4b6c
+Phase 6.1.1 Update Timing | Checksum: 282d23c9e
 
-Time (s): cpu = 00:01:35 ; elapsed = 00:01:00 . Memory (MB): peak = 2182.480 ; gain = 0.000
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.079  | TNS=0.000  | WHS=0.032  | THS=0.000  |
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:04 . Memory (MB): peak = 2235.219 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.923  | TNS=0.000  | WHS=0.031  | THS=0.000  |
 
-Phase 6.1 Hold Fix Iter | Checksum: 1a3f0e1b7
+Phase 6.1 Hold Fix Iter | Checksum: 250df627c
 
-Time (s): cpu = 00:01:36 ; elapsed = 00:01:00 . Memory (MB): peak = 2182.480 ; gain = 0.000
-Phase 6 Post Hold Fix | Checksum: 1a3f0e1b7
+Time (s): cpu = 00:01:42 ; elapsed = 00:01:04 . Memory (MB): peak = 2235.219 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 250df627c
 
-Time (s): cpu = 00:01:36 ; elapsed = 00:01:00 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:43 ; elapsed = 00:01:04 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 9.58132 %
-  Global Horizontal Routing Utilization  = 10.4737 %
+  Global Vertical Routing Utilization    = 11.257 %
+  Global Horizontal Routing Utilization  = 11.8137 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -740,49 +739,49 @@ Router Utilization Summary
   Number of Partially Routed Nets     = 0
   Number of Node Overlaps             = 0
 
-Phase 7 Route finalize | Checksum: 259e30b1f
+Phase 7 Route finalize | Checksum: 22605d32b
 
-Time (s): cpu = 00:01:36 ; elapsed = 00:01:01 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:43 ; elapsed = 00:01:05 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 259e30b1f
+Phase 8 Verifying routed nets | Checksum: 22605d32b
 
-Time (s): cpu = 00:01:36 ; elapsed = 00:01:01 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:43 ; elapsed = 00:01:05 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 25b831578
+Phase 9 Depositing Routes | Checksum: 147d155b9
 
-Time (s): cpu = 00:01:39 ; elapsed = 00:01:03 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:08 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=1.079  | TNS=0.000  | WHS=0.032  | THS=0.000  |
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.923  | TNS=0.000  | WHS=0.031  | THS=0.000  |
 
 INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
-Phase 10 Post Router Timing | Checksum: 25b831578
+Phase 10 Post Router Timing | Checksum: 147d155b9
 
-Time (s): cpu = 00:01:39 ; elapsed = 00:01:04 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:08 . Memory (MB): peak = 2235.219 ; gain = 0.000
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:01:39 ; elapsed = 00:01:04 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:08 . Memory (MB): peak = 2235.219 ; gain = 0.000
 
 Routing Is Done.
 185 Infos, 81 Warnings, 15 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:01:46 ; elapsed = 00:01:08 . Memory (MB): peak = 2182.480 ; gain = 0.000
+route_design: Time (s): cpu = 00:01:54 ; elapsed = 00:01:12 . Memory (MB): peak = 2235.219 ; gain = 0.000
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:16 ; elapsed = 00:00:05 . Memory (MB): peak = 2182.480 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 2235.219 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/Project_top_routed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:22 ; elapsed = 00:00:09 . Memory (MB): peak = 2182.480 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:23 ; elapsed = 00:00:10 . Memory (MB): peak = 2235.219 ; gain = 0.000
 Command: report_drc -file Project_top_drc_routed.rpt -pb Project_top_drc_routed.pb -rpx Project_top_drc_routed.rpx
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Coretcl 2-168] The results of DRC are in file C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/Project_top_drc_routed.rpt.
 report_drc completed successfully
-report_drc: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 2182.480 ; gain = 0.000
+report_drc: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 2235.219 ; gain = 0.000
 Command: report_methodology -file Project_top_methodology_drc_routed.rpt -rpx Project_top_methodology_drc_routed.rpx
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:69]
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:70]
@@ -797,7 +796,7 @@ INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
 INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/Project_top_methodology_drc_routed.rpt.
 report_methodology completed successfully
-report_methodology: Time (s): cpu = 00:00:41 ; elapsed = 00:00:23 . Memory (MB): peak = 2280.086 ; gain = 97.605
+report_methodology: Time (s): cpu = 00:00:37 ; elapsed = 00:00:20 . Memory (MB): peak = 2360.734 ; gain = 125.516
 Command: report_power -file Project_top_power_routed.rpt -pb Project_top_power_summary_routed.pb -rpx Project_top_power_routed.rpx
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:69]
 INFO: [Constraints 18-632] set_input_delay: No clock object specified, the clocks will be automatically identified [C:/XD58_test/XD58_Artix_100T_project/Project.srcs/constrs_1/new/Project_top.xdc:70]
@@ -818,7 +817,7 @@ WARNING: [Power 33-332] Found switching activity that implies high-fanout reset 
 Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
 210 Infos, 84 Warnings, 15 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-report_power: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 2368.945 ; gain = 88.859
+report_power: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 2452.598 ; gain = 91.863
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2L, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
 WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
@@ -907,7 +906,7 @@ WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 handle_isa/ins
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 handle_isa/inst/send_param_all/rreg_mem_data_d19/send_samllram/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin handle_isa/inst/send_param_all/rreg_mem_data_d19/send_samllram/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ADDRARDADDR[7] (net: handle_isa/inst/send_param_all/rreg_mem_data_d19/send_samllram/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[2]) which is driven by a register (handle_isa/inst/send_param_all/rreg_mem_data_d19/ram_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 handle_isa/inst/send_param_all/rreg_mem_data_d19/send_samllram/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin handle_isa/inst/send_param_all/rreg_mem_data_d19/send_samllram/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ADDRARDADDR[8] (net: handle_isa/inst/send_param_all/rreg_mem_data_d19/send_samllram/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[3]) which is driven by a register (handle_isa/inst/send_param_all/rreg_mem_data_d19/ram_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
 WARNING: [DRC REQP-1840] RAMB18 async control check: The RAMB18E1 handle_isa/inst/send_param_all/rreg_mem_data_d19/send_samllram/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin handle_isa/inst/send_param_all/rreg_mem_data_d19/send_samllram/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ADDRARDADDR[9] (net: handle_isa/inst/send_param_all/rreg_mem_data_d19/send_samllram/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[4]) which is driven by a register (handle_isa/inst/send_param_all/rreg_mem_data_d19/ram_addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
-WARNING: [DRC RTSTAT-10] No routable loads: 190 net(s) have no routable loads. The problem bus(es) and/or net(s) are AD_deal_block_inst/FIFO_AD_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_wr_ddr3_ip_C/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_time_code_ip_B/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_time_code_ip_C/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, handle_isa/inst/get_ch_param/wreg_ch_filter_data_d62/generator_isa_get_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_wr_ddr3_ip_A/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, handle_isa/inst/get_mem_param/wreg_mem_data_d17/generator_isa_get_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, handle_isa/inst/get_out_param/wreg_out_time_d25/generator_isa_get_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_wr_ddr3_ip_D/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_time_code_ip_D/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_time_code_ip_A/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_wr_ddr3_ip_B/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1]... and (the first 15 of 99 listed).
+WARNING: [DRC RTSTAT-10] No routable loads: 190 net(s) have no routable loads. The problem bus(es) and/or net(s) are FIFO_series_block/FIFO_time_code_ip_D/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_time_code_ip_B/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_time_code_ip_C/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_wr_ddr3_ip_B/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_wr_ddr3_ip_D/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_wr_ddr3_ip_A/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, handle_isa/inst/get_mem_param/wreg_mem_data_d17/generator_isa_get_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_wr_ddr3_ip_C/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, AD_deal_block_inst/FIFO_AD_ip_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, handle_isa/inst/get_out_param/wreg_out_time_d25/generator_isa_get_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, handle_isa/inst/get_ch_param/wreg_ch_filter_data_d62/generator_isa_get_fifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, FIFO_series_block/FIFO_time_code_ip_A/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1]... and (the first 15 of 99 listed).
 report_drc (run_mandatory_drcs) completed successfully
 INFO: [Vivado 12-3199] DRC finished with 0 Errors, 52 Warnings
 INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
@@ -919,12 +918,11 @@ Loading route data...
 Processing options...
 Creating bitmap...
 Creating bitstream...
-Bitstream compression saved 11259712 bits.
+Bitstream compression saved 10450944 bits.
 Writing bitstream ./Project_top.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
-INFO: [Common 17-186] 'C:/XD58_test/XD58_Artix_100T_project/Project.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Wed Nov 29 14:32:07 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2017.2/doc/webtalk_introduction.html.
-221 Infos, 157 Warnings, 15 Critical Warnings and 0 Errors encountered.
+220 Infos, 157 Warnings, 15 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:44 ; elapsed = 00:00:35 . Memory (MB): peak = 2807.586 ; gain = 417.539
-INFO: [Common 17-206] Exiting Vivado at Wed Nov 29 14:32:07 2017...
+write_bitstream: Time (s): cpu = 00:00:46 ; elapsed = 00:00:38 . Memory (MB): peak = 2896.305 ; gain = 417.035
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 29 15:53:09 2017...

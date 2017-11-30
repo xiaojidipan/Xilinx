@@ -12,7 +12,7 @@
   <Processor Endianness="Little" InstPath="sub_BD_inst/sub_BD_i/microblaze_0">
     <AddressSpace Name="sub_BD_inst_sub_BD_i_microblaze_0.sub_BD_inst_sub_BD_i_microblaze_0_local_memory_dlmb_bram_if_cntlr" Begin="0" End="8191">
       <BusBlock>
-        <BitLane MemType="RAMB36" Placement="X2Y1">
+        <BitLane MemType="RAMB36" Placement="X1Y1">
           <DataWidth MSB="15" LSB="0"/>
           <AddressRange Begin="0" End="2047"/>
           <Parity ON="false" NumBits="0"/>
@@ -27,7 +27,7 @@
   </Processor>
   <MemoryArray InstPath="sub_BD_inst/sub_BD_i/axi_ethernetlite_0/U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst" MemoryPrimitive="block" MemoryConfiguration="asymmetrical">
     <MemoryLayout Name="sub_BD_inst/sub_BD_i/axi_ethernetlite_0/U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst" CoreMemory_Width="4" MemoryType="RAM_TDP">
-      <BRAM MemType="RAMB36" Placement="X0Y1">
+      <BRAM MemType="RAMB36" Placement="X0Y4">
         <DataWidth_PortA MSB="3" LSB="0"/>
         <AddressRange_PortA Begin="0" End="4095"/>
         <BitLayout_PortA pattern="p0_d4"/>
@@ -40,7 +40,7 @@
   </MemoryArray>
   <MemoryArray InstPath="sub_BD_inst/sub_BD_i/axi_ethernetlite_0/U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst" MemoryPrimitive="block" MemoryConfiguration="asymmetrical">
     <MemoryLayout Name="sub_BD_inst/sub_BD_i/axi_ethernetlite_0/U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst" CoreMemory_Width="4" MemoryType="RAM_TDP">
-      <BRAM MemType="RAMB36" Placement="X0Y0">
+      <BRAM MemType="RAMB36" Placement="X0Y3">
         <DataWidth_PortA MSB="3" LSB="0"/>
         <AddressRange_PortA Begin="0" End="4095"/>
         <BitLayout_PortA pattern="p0_d4"/>
@@ -53,7 +53,7 @@
   </MemoryArray>
   <MemoryArray InstPath="sub_BD_inst/sub_BD_i/axi_ethernetlite_0/U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst" MemoryPrimitive="block" MemoryConfiguration="asymmetrical">
     <MemoryLayout Name="sub_BD_inst/sub_BD_i/axi_ethernetlite_0/U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst/xpm_memory_base_inst" CoreMemory_Width="4" MemoryType="RAM_TDP">
-      <BRAM MemType="RAMB36" Placement="X0Y3">
+      <BRAM MemType="RAMB36" Placement="X0Y1">
         <DataWidth_PortA MSB="3" LSB="0"/>
         <AddressRange_PortA Begin="0" End="4095"/>
         <BitLayout_PortA pattern="p0_d4"/>

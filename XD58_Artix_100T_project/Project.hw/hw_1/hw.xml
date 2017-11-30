@@ -2014,7 +2014,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe12[0]"/>
+        <Option Id="MAP" value="probe16[0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2051,7 +2051,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe10[31:0]"/>
+        <Option Id="MAP" value="probe12[31:0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2099,7 +2099,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe13[0]"/>
+        <Option Id="MAP" value="probe14[0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2116,7 +2116,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe14[0]"/>
+        <Option Id="MAP" value="probe18[0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2133,7 +2133,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe8[31:0]"/>
+        <Option Id="MAP" value="probe7[31:0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2181,7 +2181,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe15[0]"/>
+        <Option Id="MAP" value="probe19[0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2198,7 +2198,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe1[5:0]"/>
+        <Option Id="MAP" value="probe10[5:0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2220,7 +2220,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe16[0]"/>
+        <Option Id="MAP" value="probe20[0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2237,7 +2237,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe19[0]"/>
+        <Option Id="MAP" value="probe23[0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2254,7 +2254,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe3[31:0]"/>
+        <Option Id="MAP" value="probe11[31:0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2374,7 +2374,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe20[0]"/>
+        <Option Id="MAP" value="probe24[0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2423,7 +2423,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe21[0]"/>
+        <Option Id="MAP" value="probe25[0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2440,7 +2440,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe4[31:0]"/>
+        <Option Id="MAP" value="probe9[31:0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2488,7 +2488,199 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe9[31:0]"/>
+        <Option Id="MAP" value="probe6[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Short"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[31]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[30]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[29]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[28]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[27]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[26]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[25]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[24]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[23]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[22]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[21]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[20]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[19]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[18]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[17]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[16]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[15]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[14]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[13]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[12]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[11]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[10]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[9]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[8]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[7]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[6]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[5]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[4]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[3]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[2]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[1]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_par_w[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe3[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Short"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[31]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[30]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[29]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[28]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[27]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[26]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[25]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[24]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[23]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[22]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[21]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[20]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[19]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[18]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[17]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[16]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[15]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[14]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[13]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[12]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[11]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[10]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[9]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[8]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[7]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[6]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[5]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[4]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[3]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[2]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[1]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_over_addr_w[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe13[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Short"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[31]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[30]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[29]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[28]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[27]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[26]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[25]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[24]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[23]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[22]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[21]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[20]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[19]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[18]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[17]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[16]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[15]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[14]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[13]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[12]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[11]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[10]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[9]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[8]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[7]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[6]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[5]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[4]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[3]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[2]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[1]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_par_w[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe14[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Short"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[31]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[30]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[29]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[28]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[27]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[26]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[25]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[24]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[23]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[22]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[21]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[20]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[19]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[18]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[17]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[16]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[15]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[14]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[13]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[12]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[11]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[10]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[9]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[8]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[7]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[6]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[5]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[4]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[3]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[2]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[1]"/>
+        <net name="ddr3_block_inst/wr_ddr3_ctrl_block/wr_ddr3_ctrl_A/wr_start_addr_w[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe4[31:0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2942,7 +3134,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe11[0]"/>
+        <Option Id="MAP" value="probe15[0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2959,7 +3151,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe7[10:0]"/>
+        <Option Id="MAP" value="probe8[10:0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -2986,9 +3178,9 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe6[5:0]"/>
+        <Option Id="MAP" value="probe1[5:0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
-        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
         <Option Id="TRIGGER_COMPARE_VALUE" value="eq6&apos;hXX"/>
       </probeOptions>
@@ -3025,7 +3217,7 @@
         <Option Id="DISPLAY_HINT" value=""/>
         <Option Id="DISPLAY_VISIBILITY" value=""/>
         <Option Id="HW_ILA" value="hw_ila_1"/>
-        <Option Id="MAP" value="probe18[0]"/>
+        <Option Id="MAP" value="probe22[0]"/>
         <Option Id="NAME.CUSTOM" value=""/>
         <Option Id="NAME.SELECT" value="Short"/>
         <Option Id="SOURCE" value="netlist"/>
@@ -10521,6 +10713,23 @@
         <net name="wr_ch_sel_1[3]"/>
         <net name="wr_ch_sel_1[2]"/>
         <net name="wr_ch_sel_1[1]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe21[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Short"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="wr_ddr3_ch_sel[0]"/>
       </nets>
     </probe>
     <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">

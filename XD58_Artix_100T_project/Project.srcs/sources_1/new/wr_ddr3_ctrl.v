@@ -153,7 +153,7 @@ begin
                             user_wr_burst_len <= 8'd16;
                             user_wr_len <= {5'b0000,series_comp_point[15:5]};
                             user_wr_base_addr <= user_wr_base_addr + 32'h8;//写起始地址更新
-                            wr_over_addr <= wr_over_addr + 32'h8;//更新下一包起始地址
+                            wr_over_addr <= user_wr_base_addr + 32'h8;//更新下一包起始地址
                             state_a <= ST4_a;  
                         end
                 ST4_a : begin
@@ -162,11 +162,11 @@ begin
                             state_a <= ST5_a;
                         end
                 ST5_a : begin
-                            user_wr_satisfy <= 1'b0;
                             if(txn_done)
                                 begin
                                     ddr3_wr_done <= 1'b1;
                                     rden_sel <= 1'b0;//选择
+                                    user_wr_satisfy <= 1'b0;
                                     wr_over_addr <= wr_over_addr + {15'h0,series_comp_point,1'b0};//更新下一包的起始地址
                                     state_a <= ST6_a; 
                                 end
@@ -229,5 +229,14 @@ assign rden_sel_w = rden_sel;
 assign wr_temp_addr_w = wr_temp_addr;
 assign wr_addr_step_w = wr_addr_step;
 
+(*mark_debug = "true"*)wire [31:0] wr_start_addr_par_w;
+(*mark_debug = "true"*)wire [31:0] wr_over_addr_par_w;
+(*mark_debug = "true"*)wire  [31:0] wr_start_addr_w;
+(*mark_debug = "true"*)wire  [31:0] wr_over_addr_w;
+
+assign wr_start_addr_par_w = wr_start_addr_par;
+assign wr_over_addr_par_w = wr_over_addr_par;
+assign wr_start_addr_w = wr_start_addr;
+assign wr_over_addr_w = wr_over_addr;
 
 endmodule
